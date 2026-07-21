@@ -1,0 +1,38 @@
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  width: 350px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+.book-table th,
+.book-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.book-table th {
+  background: #0d6efd;
+  color: white;
+}
+
+.book-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.book-table button {
+  margin: 3px;
+  padding: 7px 10px;
+}
